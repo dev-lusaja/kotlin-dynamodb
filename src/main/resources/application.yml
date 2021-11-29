@@ -1,0 +1,6 @@
+config:
+  env: dev
+  region: us-east-1
+aws:
+  dynamodb:
+    endpoint: ""

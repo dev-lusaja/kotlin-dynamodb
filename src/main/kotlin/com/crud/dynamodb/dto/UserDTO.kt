@@ -1,6 +1,6 @@
-package com.crud.dynamodb.service
+package com.crud.dynamodb.dto
 
-data class UserInput(
+data class UserDTO(
     var name: String = "",
     var age: String = "",
     var createAt: String = ""

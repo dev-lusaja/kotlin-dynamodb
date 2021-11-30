@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore
 import org.springframework.data.annotation.Id
 
 @DynamoDBTable(tableName = "kotlin")
-class DynamoSchema(
+class UserDynamoSchema(
     @Id
     @DynamoDBIgnore
     @JsonIgnore
